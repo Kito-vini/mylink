@@ -8,7 +8,7 @@ export const Container = styled.View`
     flex:1;
     background-color: #FFF;
     border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
     padding: 0 15px;
 `;
 
@@ -35,7 +35,20 @@ export const LongUrl = styled.Text`
     margin-bottom: 30px;
 `;
 
-export const ShortLinkArea = styled.TouchableOpacity``;
+export const ShortLinkArea = styled.TouchableOpacity`
+    height: 45px;
+    width: 100%;
+    background-color: #172742;
+    border-radius: 7px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+`;
 
-export const ShortLinkUrl = styled.Text``;
+export const ShortLinkUrl = styled.Text`
+    width: 90%;
+    color: #FFF;
+    font-size: 16px;
+`;
 
