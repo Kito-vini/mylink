@@ -16,7 +16,7 @@ export default function ModalLink({onClose, data}){
     async function handleShare(){
         try{
                 const result = await Share.share({
-                    message:`Link encurtado pra facilitar: ${data.link}`
+                    message:`O Kito encurtou o link pra te ajudar: ${data.link}`
                 });
                 if(result.action === Share.sharedAction){
                     if(result.activityType){

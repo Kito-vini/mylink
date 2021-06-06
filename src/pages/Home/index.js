@@ -68,11 +68,12 @@ export default function Home(){
             behavior={ Platform.OS === 'android' ? 'padding' : 'position'}        >
         
         <ContainerLogo>
+            <SubTitle>App by KitoVini</SubTitle>
             <Logo source={require('../../assets/Logo.png')} resizeMode="contain" />
         </ContainerLogo>
 
         <ContainerContent>
-            <Title>SujeitoLink</Title>
+            <Title>KitoLink</Title>
             <SubTitle>Cole seu link para encurtar</SubTitle>
 
             <ContainerInput>
